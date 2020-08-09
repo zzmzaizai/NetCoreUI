@@ -46,6 +46,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Start", "Start", "{9E7E63D4
 		library\Start\NetCoreUI.Library.proj = library\Start\NetCoreUI.Library.proj
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{29F300EB-6245-4B88-95A8-9CBDD7A1237D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		logo.png = logo.png
+		logo.svg = logo.svg
+		publish-NuGet.bat = publish-NuGet.bat
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
