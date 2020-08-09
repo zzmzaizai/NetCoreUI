@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+<Import Project="..\Start\NetCoreUI.Example.proj" />
+  <PropertyGroup>
+	  <TargetFrameworks>netcoreapp3.0</TargetFrameworks>
+    <UseWindowsForms>true</UseWindowsForms>
+    <DefineConstants>$(DefineConstants);WIN</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\library\NetCoreUI.Win\NetCoreUI.Win.csproj" />
+  </ItemGroup>
+</Project>

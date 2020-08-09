@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\Start\NetCoreUI.Library.proj" />
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
+    <RootNamespace>NetCoreUI</RootNamespace>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,12 @@
+﻿<Project>
+  <PropertyGroup>
+	  <LangVersion>8.0</LangVersion>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>NetCoreUI.Example</AssemblyName>
+    <RootNamespace>NetCoreUI.Example</RootNamespace>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\NetCoreUI.Example.App\NetCoreUI.Example.App.csproj" />
+  </ItemGroup>
+</Project>

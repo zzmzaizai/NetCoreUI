@@ -1,0 +1,7 @@
+﻿<Project>
+  <Import Project="NetCoreUI.Library.proj" />
+  
+  <ItemGroup>
+    <ProjectReference Include="..\NetCoreUI\NetCoreUI.csproj" />
+  </ItemGroup>
+</Project>

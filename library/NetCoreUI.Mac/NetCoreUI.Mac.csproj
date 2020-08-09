@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\Start\NetCoreUI.Library.Platform.proj" />
+  <PropertyGroup>
+	  <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+
+</Project>

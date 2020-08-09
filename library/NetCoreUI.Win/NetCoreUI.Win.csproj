@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <Import Project="..\Start\NetCoreUI.Library.Platform.proj" />
+	<PropertyGroup>
+		<TargetFrameworks>netcoreapp3.0;net461</TargetFrameworks>
+		<UseWindowsForms>true</UseWindowsForms>
+		<TargetPlatformMinVersion>10.0.17134.0</TargetPlatformMinVersion>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Windows.SDK.Contracts" Version="10.0.18362.2005" PrivateAssets="all" />
+  </ItemGroup>
+</Project>

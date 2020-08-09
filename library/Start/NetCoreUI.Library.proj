@@ -1,0 +1,28 @@
+﻿<Project>
+  <Import Project="..\..\project\NetCoreUI.Library.CodeStyle.proj" />
+  <Import Project="..\..\project\NetCoreUI.Library.NuGet.proj" />
+
+  <PropertyGroup>
+    <LangVersion>7.3</LangVersion>
+    <OutputType>Library</OutputType>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <VersionPrefix>$(AssemblyVersion)</VersionPrefix>
+    <VersionSuffix>beta.1</VersionSuffix>
+    <PackageId>Washala.$(AssemblyName)</PackageId>
+    <Description>Write .Net Core applications with a webview UI</Description>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Scripts\*.js">
+      <LogicalName>$(AssemblyName).Scripts.%(Filename)%(Extension)</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+</Project>

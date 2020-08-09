@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\Start\NetCoreUI.Example.proj" />
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <DefineConstants>$(DefineConstants);MAC</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\library\NetCoreUI.Mac\NetCoreUI.Mac.csproj" />
+  </ItemGroup>
+</Project>
